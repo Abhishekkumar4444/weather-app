@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all .4s ease;
+
+}
+body{
+	height: 100px;		
+	font-family: 'Poppins', sans-serif;
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+form#search{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form#search #input{
+	width: 250px;
+	outline: none;
+	/* border-radius: 8px; */
+	overflow: hidden;
+	font-size: 1rem;
+	margin: 8px 0;
+	padding: 6px 10px;
+	border-bottom: 3px solid black;
+	background: none;
+	color: whitesmoke;
+}
+input{
+	border: none;
+}
+input::placeholder{
+	color: whitesmoke;
+}
+
+.container{
+	padding: 1.2rem;
+	
+	border-radius: 30px;
+	width: 370px;
+	height: 400px;
+	display: block;
+	margin: 3rem auto 0 auto;
+	box-shadow: 1px 5px 50px 20px  black;
+}
+
+#btn{
+	margin-left: 1rem;
+	color: #494949;
+	text-transform: uppercase;
+	padding: .4rem;
+	border-radius: 5px;
+	font-weight: 600;
+	cursor: pointer;
+
+}
+#btn:hover{
+	/* transform: rotate(-10deg); */
+	background: dodgerblue;
+	color: whitesmoke;
+}
+.temp{
+	text-align: center;
+}
+.temp #unit{
+	font-size: 1.5rem;
+	color: #ffffff;
+
+}
+.temp #tempval{
+	font-size: 2rem;
+	color: #ffffff;
+
+}
+#climate{
+	font-size: 2rem;
+	color: #ffffff;
+	text-align: center;
+
+}
+#location{
+	font-size: 2.5rem;
+	color: #ffffff;
+	text-align: center;
+}
+
+.temp #icon{
+	margin: 1rem;
+	width: 40%;
+	height: auto;
+
+
+}
