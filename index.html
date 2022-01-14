@@ -49,8 +49,7 @@
 
 			      try{
 			      	const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=
-			      		${city}&appid=38f6f7d588619d5a38c97ec36ce544e3`,
-			      	    { mode:'cors'}
+			      		${city}&appid=38f6f7d588619d5a38c97ec36ce544e3`
 			      	);
 
 			      	const weatherData = await response.json();
