@@ -106,7 +106,7 @@
 					long = position.coords.longitude;
 					lat = position.coords.latitude;
 
-					const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=38f6f7d588619d5a38c97ec36ce544e3`
+					const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${38f6f7d588619d5a38c97ec36ce544e3}`
 
 					fetch(api).then((response) => {
 						return response.json();
